@@ -78,7 +78,8 @@ header ul li a:hover{
 header .menu-toggle{
     display: none;
 }
-.bannerimg{
+#bannerimgdiv{
+    background-image:url("banner1.jpg");
     padding:0px;
     margin:17px 25px 17px 17px;
     width:97% ;
@@ -106,6 +107,7 @@ header .menu-toggle{
     border:1px solid black;
 }
 .banner{
+    margin-top: 12px;
     margin-bottom: 20px;
     
 }
@@ -244,16 +246,19 @@ form .message_holder{
         position:relative;
         width:97% ;
     height: 464px;
+    position:sticky;
     }
 
     .banner_span p{
         font-size: 16px;
+       
     }
  
     .banner_span {
          margin-top:70px;
          top:10%;
          margin-left: 10px;
+         background-attachment: fixed;
     } 
     
 
