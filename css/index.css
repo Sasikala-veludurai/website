@@ -99,6 +99,7 @@ header .menu-toggle{
 }
 .banner{
     margin-bottom: 20px;
+    min-height: 100%;
 }
 .banner_span{
     position: absolute;
@@ -230,15 +231,14 @@ form .message_holder{
         margin-left: .8em;
     }
     .banner{
-        position:static;
+        position:relative;
     }
     .banner_span p{
-        font-size: 14px;
+        font-size: 16px;
     }
  
     .banner_span {
-        
-     top:29%;
+         top:20%;
     } 
     .banner_span {
        margin-left: 10px;
@@ -247,7 +247,7 @@ form .message_holder{
      position: absolute;
      width: 100px;
      height: 100px;
-     top: 25%;
+     top: 16%;
      left: 8%;
      border-radius: 100px;
      border:1px solid black;
