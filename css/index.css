@@ -238,7 +238,8 @@ form .message_holder{
     }
  
     .banner_span {
-         top:20%;
+         margin-top:70px;
+         top:0%;
     } 
     .banner_span {
        margin-left: 10px;
@@ -247,7 +248,8 @@ form .message_holder{
      position: absolute;
      width: 100px;
      height: 100px;
-     top: 16%;
+     margin-top:70px;
+     top:0%;
      left: 8%;
      border-radius: 100px;
      border:1px solid black;
