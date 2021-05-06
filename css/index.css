@@ -88,6 +88,14 @@ header .menu-toggle{
     box-shadow: 12px 12px 5px 3px gray;
    
 }
+.profilediv{
+    width: 185px;
+    height: 182px;
+    display: inline-block;
+    position: absolute;
+    top: 18%;
+    left: 6%;
+}
 .profile{
     position: absolute;
     width: 185px;
@@ -199,6 +207,7 @@ form .message_holder{
    width:100%;
 }
 
+
 @media only screen and (max-width:750px){
     header{
         position:relative;
@@ -233,27 +242,18 @@ form .message_holder{
     .banner{
         position:relative;
     }
+
     .banner_span p{
         font-size: 16px;
     }
  
     .banner_span {
          margin-top:70px;
-         top:0%;
+         top:10%;
+         margin-left: 10px;
     } 
-    .banner_span {
-       margin-left: 10px;
-   }
-    .profile{
-     position: absolute;
-     width: 100px;
-     height: 100px;
-     margin-top:70px;
-     top:0%;
-     left: 8%;
-     border-radius: 100px;
-     border:1px solid black;
-   }
+    
+
    .top_footer h1,
    .top_footer h2{
        font-size: 20px;
@@ -276,6 +276,9 @@ form .message_holder{
        height:35px;
        font-size: 12px;
    }
+   .footer_wrapper{
+       width:100%;
+   }
    .bannerimg{
     padding:0px;
     margin:17px 25px 17px 17px;
@@ -295,6 +298,19 @@ header .logo-text{
     font-size: 10px;
     margin-right: 1px;
     
+}
+
+.banner_span p{
+    font-size:14px;
+}
+.profile{
+    position: absolute;
+    width: 73px;
+    height: 77px;
+    top: 20%;
+    left: 8%;
+    border-radius: 117px;
+    border: 1px solid black;
 }
  }
 
