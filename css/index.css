@@ -229,10 +229,16 @@ form .message_holder{
     header .logo{
         margin-left: .8em;
     }
-}
- @media only Screen and (min-width:400px) and (max-width:600px){
+    .banner{
+        position:static;
+    }
     .banner_span p{
-        font-size: 20px;
+        font-size: 14px;
+    }
+ 
+    .banner_span {
+        
+     top:29%;
     } 
     .banner_span {
        margin-left: 10px;
@@ -241,7 +247,7 @@ form .message_holder{
      position: absolute;
      width: 100px;
      height: 100px;
-     top: 35%;
+     top: 25%;
      left: 8%;
      border-radius: 100px;
      border:1px solid black;
@@ -281,6 +287,12 @@ form .message_holder{
 header .logo-text{
     font-size: 24px;
     margin-top:13px;
+}
+ .footer_wrapper .top_footer.footer-section .social a{
+    
+    font-size: 10px;
+    margin-right: 1px;
+    
 }
  }
 
